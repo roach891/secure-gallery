@@ -1,19 +1,32 @@
 # Secure Gallery
 
-Simple secure image gallery application.
+A secure, containerized image gallery web application built with Vue 3, Flask, and Python Sqlite3.
 
-## How to Use
+## Setup Instructions
 
-1. Make sure you have **Docker** and **Docker Compose** installed.
+### Prerequisites
 
-2. Clone this repository.
+- Docker
+- Docker Compose
 
-3. Run:
+### Quick Start
 
-        docker-compose up --build
+1. Clone this repository.
+2. Run:
+  
+           docker-compose up --build
+   
+5. Access the applications:
 
-4. Access the applications:
+   Frontend: http://localhost:8080/
 
-    Frontend: http://localhost:8080/
+   Backend: http://localhost:5000/
 
-    Backend: http://localhost:5000/
+### Project Structure
+
+```
+├── backend/        # Flask API server
+├── frontend/       # Vue 3 frontend
+├── docker-compose.yml
+├── README.md
+```
